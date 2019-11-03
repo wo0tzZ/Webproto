@@ -5,7 +5,9 @@
 
 .animation-box {
 	width: 40%;
-	height: 600px;
+	min-width: 300px;
+	height: 300px;
+	max-height: 500px;
 	margin: 5em auto;
 	position: relative;
 }
@@ -113,3 +115,8 @@ img {
 
 
 
+@media only screen and (min-width: 1500px) {
+	.animation-box {
+		height: 400px;
+	}
+}
