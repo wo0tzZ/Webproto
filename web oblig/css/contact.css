@@ -1,0 +1,41 @@
+.container {
+	width: 90%;
+	margin: 5em auto;
+	background: rgba(37, 77, 116, 0.4);
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 600px));
+	justify-content: center;
+	padding: 1em 0;
+	grid-gap: 1em;
+}
+
+
+
+.left-box {
+	width: 90%;
+	margin: 1em auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	
+}
+
+.right-box {
+	width: 80%;
+	margin: 1em auto;
+	min-height: 300px;
+	background: white;
+}
+
+.contact-box {
+	width: 95%;
+	height: 2.5em;
+	margin-bottom: 0.5em;
+	background: white;
+}
+
+.small-box {
+	width: 50%;
+	margin: 0 auto;
+}
+
