@@ -1,14 +1,12 @@
-html {
-	position: relative;
-}
+
 
 body {
-	padding-top: 140px;
+	padding-top: 150px;
 }
 
 .company-info {
 	width: 90%;
-	margin: 2em auto 3em;
+	margin: 0 auto 3em;
 }
 
 .company-info h3 {
@@ -43,8 +41,10 @@ body {
 	display: flex;
 	flex-direction: column;
 	width: 90%;
-	margin: 0 auto 10em; 
+	margin: 0 auto;
+	padding-bottom: 200px; 
 }
+
 .box {
 	display: flex;
 	flex-direction: row;
@@ -85,7 +85,8 @@ body {
 	body {
 		padding-top: 183px;
 	}
-	.company-info {
-		margin: 5em auto 3em;
+	
+	.name p {
+		letter-spacing: 0.25em;
 	}
 }
