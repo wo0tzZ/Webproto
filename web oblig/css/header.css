@@ -4,9 +4,6 @@
 	box-sizing: border-box;
 }
 
-body {
-	padding-top: 165px;
-}
 
 .flagbox {
 	display: none;
@@ -27,7 +24,7 @@ header {
 }
 
 .top-container {
-	background-color: lightblue;
+	background-color: #AB562D;
 	padding: 0.5em;
 	margin-bottom: 0.5em;
 }
@@ -45,6 +42,7 @@ header {
 
 .logo {
 	width: 100%;
+	height: 70px;
 }
 
 .mission {
@@ -57,7 +55,7 @@ header {
 }
 
 .nav-container {
-	background: lightblue;
+	background: #AB562D;
 	padding: 0.25em 0.5em;
 	top: 0;
 	width: 100%;
@@ -97,13 +95,26 @@ nav a:hover {
 	border-radius: 5px;
 }
 
-.active {
-	border-bottom: 2px solid black;
+.active a {
+	text-decoration: underline;
 }
+
+footer {
+	background: #FF300E10;
+	width: 100%;
+	height: 70px;
+	padding: 0.5em;
+	text-align: center;
+	position: absolute;
+}
+
+
+
+
 
 @media only screen and (min-width: 600px ) {
 	body {
-		padding-top: 252px;
+		padding-top: 140px;
 	}
 
 	.flagbox {
@@ -142,6 +153,7 @@ nav a:hover {
 
 	.logo {
 		width: 100%;
+		height: 100px;
 	}
 
 	.nav-toggle-label {
@@ -160,22 +172,32 @@ nav a:hover {
 		display: flex;
 		justify-content: space-between;
 		width: 70%;
+		max-width: 800px;
 		margin: 0 auto;
 	}
 	
 	nav a {
 		font-size: 1.25em;
 	}
+
+	footer {
+		width: 100%;
+		height: 50px;
+		padding: 0.5em 1em;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		bottom: 0;
+		top: -100;
+	}
+
+
 }
 
 @media only screen and (min-width: 950px ) {
 
-	body {
-		padding-top: 183px;
-	}
-	.flagbox {
-		position: relative;
-	}
+	
+	
 	
 	.info {
 		display: grid;

@@ -1,7 +1,11 @@
+body {
+	padding-top: 140px;
+}
+
 .container {
 	width: 90%;
 	max-width: 1515px;
-	margin: 5em auto;
+	margin: 5em auto 0;
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(200px, 400px));
 	justify-content: center;
@@ -26,5 +30,11 @@
 	margin: 0 auto;
 	text-align: center;
 	line-height: 1.3em;
+}
+
+.text-box h4 {
+	margin-bottom: 0.5em;
+	letter-spacing: 0.20em;
+	text-transform: uppercase;
 }
 

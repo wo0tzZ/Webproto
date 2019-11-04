@@ -1,7 +1,12 @@
+body {
+	padding-top: 140px;
+}
+
+
 .container {
 	width: 90%;
 	margin: 5em auto;
-	background: rgba(37, 77, 116, 0.4);
+	background: #ffeee6;
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(200px, 600px));
 	justify-content: center;
@@ -13,6 +18,7 @@
 
 .left-box {
 	width: 90%;
+	max-height: 300px;
 	margin: 1em auto;
 	display: flex;
 	flex-direction: column;
@@ -68,7 +74,7 @@ input {
 	width: 100px;
 	height: 2em;
 	margin-top: 2em;
-	background: lightblue;
+	background: #AB562D;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -82,10 +88,18 @@ a {
 }
 
 .btn:hover {
-	background: black;
-	color: lightblue;
+	background: #AB562D;
+	color: #ffeee6;
 	cursor: pointer;
 	width: 120px;
+}
+
+footer {
+	height: 50px;
+}
+
+footer p {
+	margin: 0 auto;
 }
 
 
