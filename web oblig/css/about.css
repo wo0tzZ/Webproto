@@ -62,6 +62,7 @@ body {
 	line-height: 1.5em;
 }
 
+
 .name {
 	background-color: #FF300E10;
 	text-align: center;
@@ -90,9 +91,10 @@ body {
 		font-size: 1em;
 		line-height: 1.75em;
 	}
+
+	.person-info a {
+	margin-left: 1em;
+}
 }
 
 
-.person-info a {
-	
-}
