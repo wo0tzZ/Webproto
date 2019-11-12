@@ -62,6 +62,11 @@ header {
 	margin: 2.5px;
 }
 
+.flag:hover {
+	width: 30px;
+	margin-right: 5px;
+}
+
 .nav-toggle-container {
 	width: 40%;
 	padding-top: 50px;

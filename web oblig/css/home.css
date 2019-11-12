@@ -106,5 +106,11 @@ img {
 
 }
 
+@media only screen and (min-width: 1600px) {
+	.animation-box {
+		width: 90%;
+	}
+}
+
 
 
